@@ -5,6 +5,10 @@ module.exports = {
     filename: "app.js"
   },
 
+  resolve: {
+    modulesDirectories: [ __dirname ]
+  },
+
   module: {
     loaders: [{
       test: /\.js$/,
